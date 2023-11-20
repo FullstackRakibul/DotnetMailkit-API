@@ -17,10 +17,8 @@ namespace SupportMailer.Services
 
         public async Task<bool> SendAsync(MailData mailData, CancellationToken ct)
         {
-            throw new NotImplementedException();
 
-            try
-            {
+            try{
                 var mail = new MimeMessage();
                 #region Sender / Receiver
 
